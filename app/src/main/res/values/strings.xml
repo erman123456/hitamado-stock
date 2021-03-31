@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hitamado Stock</string>
+    <string name="title_delivery">Antar</string>
+    <string name="title_packing">Packing</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="aksi">
+        <item>Tambah</item>
+        <item>Kurang</item>
+    </string-array>
+</resources>

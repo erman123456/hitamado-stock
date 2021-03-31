@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_delivery">
+
+    <fragment
+        android:id="@+id/navigation_delivery"
+        android:name="com.app.hitamado.ui.Delivery.DeliveryFragment"
+        android:label="@string/title_delivery"
+        tools:layout="@layout/fragment_delivery" />
+
+    <fragment
+        android:id="@+id/navigation_packing"
+        android:name="com.app.hitamado.ui.Packing.PackingFragment"
+        android:label="@string/title_packing"
+        tools:layout="@layout/fragment_packing"
+        />
+
+    <fragment
+        android:id="@+id/navigation_penyesuaian"
+        android:name="com.app.hitamado.ui.penyesuaian.PenyesuaianFragment"
+        android:label="Penyesuaian"
+        tools:layout="@layout/fragment_penyesuaian"/>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.app.hitamado.ui.account.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile"/>
+
+</navigation>
