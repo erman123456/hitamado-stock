@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiClient {
-    private var baseURL ="https://crm.hitamado.com/api/"
+    private var baseURL ="https://combine.hitamado.com/api/"
 
 
     private lateinit var retro: Retrofit
